@@ -11,12 +11,13 @@ It connects via SSH, runs the appropriate command, and saves the output in a tim
 - Simple and extendable
 
 ## 📂 Project Structure
+```plaintext
 cisco-juniper-config-backup/
 │
-├─ devices.yaml           # Device inventory with IPs, credentials, and vendor type
-├─ backup.py              # Main script to run backups
-├─ utils.py               # Helper functions for SSH connections and file handling
-├─ logs/                  # Logs of backup runs
-├─ backups/               # Directory where backup files are stored
-├─ requirements.txt       # Python dependencies
-└─ README.md              # Project documentation
+├─ devices.yaml        # Device inventory with IPs, credentials, and vendor type
+├─ backup.py           # Main script to run backups
+├─ utils.py            # Helper functions for SSH connections and file handling
+├─ logs/               # Logs of backup runs
+├─ backups/            # Directory where backup files are stored
+├─ requirements.txt    # Python dependencies
+└─ README.md           # Project documentation
