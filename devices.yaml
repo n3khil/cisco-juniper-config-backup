@@ -1,0 +1,12 @@
+devices:
+  - name: Cisco-R1
+    host: 192.168.1.10
+    device_type: cisco_ios
+    username: admin
+    password: Cisco123
+
+  - name: Juniper-R1
+    host: 192.168.1.20
+    device_type: juniper
+    username: admin
+    password: Juniper123
